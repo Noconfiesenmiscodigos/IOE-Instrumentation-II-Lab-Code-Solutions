@@ -1,0 +1,7 @@
+;WAP to set PC2
+
+MVI A,04H
+OUT 33H
+MVI A,05H
+OUT 33H
+RST 1
